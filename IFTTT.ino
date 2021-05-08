@@ -12,6 +12,8 @@ void setup()
 
 void loop()
 {
+    lux = sensor.lightLevel();
+
     Serial.print(lux);
     Serial.print(" lx");
     Serial.println();
